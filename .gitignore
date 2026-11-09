@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# --- PyInstaller (gerar_exe_windows.bat) ---
+build/
+dist/
+*.spec
+
+# --- Editores / IDEs ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Arquivos de teste ---
+# (PDFs usados para testar não devem ir para o repositório)
+*.pdf
+*_separado/
+
+# --- Variáveis de ambiente / segredos ---
+.env
+.env.*
